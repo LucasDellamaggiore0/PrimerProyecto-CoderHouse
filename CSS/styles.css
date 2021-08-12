@@ -16,6 +16,7 @@
     text-decoration: none;
     color: white;
     padding: 5px;
+    margin-left: 40px;
 }
 
 .logo h1{
@@ -46,23 +47,25 @@ main{
     margin: 40px;
     background-color: white;
     padding: 30px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 22px;
+}
+
+.noticia p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
 }
 
 .tituloNoticia h2{
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .contenidoNoticia{
     margin-top: 40px;
     letter-spacing: 1px;
-    font-weight: 300;
     text-align: justify;
 }
 
