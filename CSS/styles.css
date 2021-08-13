@@ -322,6 +322,21 @@ strong{
     margin: 20px;
 }
 
+
+.equipoLocal{
+    width: 200px;
+}
+
+.equipoVisitante{
+    text-align: right;
+    width: 200px;
+}
+
+.versus{
+    text-align: center;
+    width: 60px;
+}
+
 /*-------MOBILE RESPONSIVE----------*/
 
 @media only screen and (min-width:360px) and (max-width:760px){
