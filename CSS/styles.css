@@ -314,6 +314,44 @@ strong {
     width: 60px;
 }
 
+/*--------FOOTER--------*/
+
+footer{
+    background-color: #1a3151;
+    align-items: center;
+}
+
+.tituloFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloFooter h6{
+    font-size: 32px;
+    color: rgb(233,233,233);
+    max-width: max-content;
+    letter-spacing: 10px;
+}
+
+.textoRedesSociales{
+    color: rgb(233,233,233);
+    font-size: 18px;
+}
+
+.iconos a{
+    text-decoration: none;
+}
+
+.iconos a i{
+    color: rgb(233,233,233);
+}
+
+
+#colorFooter{
+    background-color: #1a3151 !important;
+}
+
+
 /*-------MOBILE RESPONSIVE----------*/
 @media only screen and (min-width: 360px) and (max-width: 760px) {
     .ocultarCelda {
@@ -339,3 +377,4 @@ strong {
         font-size: 14px;
     }
 }
+
