@@ -351,6 +351,14 @@ footer{
     background-color: #1a3151 !important;
 }
 
+/*-------SECCION CONTACTO----------*/
+
+.seccionContacto{
+    background-color: rgb(233,233,233);
+    padding: 50px;
+    margin: 40px;
+}
+
 
 /*-------MOBILE RESPONSIVE----------*/
 @media only screen and (min-width: 360px) and (max-width: 760px) {

@@ -47,6 +47,66 @@
             </div>
         </nav>
     </header>
+    <div class="tituloContacto">
+        <h2>
+            Suscribete para recibir informacion de tu equipo
+        </h2>
+    </div>
+    <section class="seccionContacto">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Equipo favorito</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Soy hincha de:</option>
+                    <option>Boca</option>
+                    <option>River</option>
+                    <option>Racing</option>
+                    <option>Independiente</option>
+                    <option>Newells</option>
+                    <option>Rosario Central</option>
+                    <option>Colon</option>
+                    <option>Union</option>
+                    <option>San Lorenzo</option>
+                    <option>Huracan</option>
+                    <option>Banfield</option>
+                    <option>Lanus</option>
+                    <option>Estudiantes (LP)</option>
+                    <option>Gimnasia (LP)</option>
+                    <option>Arsenal</option>
+                    <option>Patronato</option>
+                    <option>Talleres</option>
+                    <option>Atletico Tucuman</option>
+                    <option>Aldosivi</option>
+                    <option>Platense</option>
+                    <option>Central Cordoba</option>
+                    <option>Velez</option>
+                    <option>Godoy Cruz</option>
+                    <option>Argentinos Juniors</option>
+                    <option>Sarmiento (J)</option>
+                    <option>Defensa y Justicia</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Deseo recibir informacion semanalmente
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
     <footer class="text-center text-lg-start bg-light text-muted row" id="colorFooter">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom contenedorTextoSeguir">
             <div class="me-5 d-none d-lg-block textoRedesSociales">
