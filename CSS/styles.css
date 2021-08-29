@@ -404,5 +404,8 @@ footer{
     .partidos {
         font-size: 14px;
     }
+    .tablaJornadas table{
+        font-size: 12px;
+    }
 }
 
