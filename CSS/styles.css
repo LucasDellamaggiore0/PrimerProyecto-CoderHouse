@@ -18,7 +18,7 @@
     text-decoration: none;
     color: white;
     padding: 5px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .logo h1{
@@ -36,18 +36,18 @@ main{
 }
 
 .tituloMain{
-    margin: 40px 0 20px 40px;
+    margin: 40px 0 20px 20px;
     font-family: 'Oswald', sans-serif;
 }
 
 .tituloMain h2{
-    font-size: 45px;
+    font-size: 42px;
     width: max-content;
     font-weight: 700;
 }
 
 .noticia{
-    margin: 40px;
+    margin: 20px;
     background-color: white;
     padding: 30px;
 }
@@ -355,10 +355,30 @@ footer{
 
 .seccionContacto{
     background-color: rgb(233,233,233);
-    padding: 50px;
-    margin: 40px;
+    padding: 40px;
+    margin: 20px;
 }
 
+.tituloContacto{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.tituloContacto h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+
+.suscripcion{
+    background-color: #1a3151 !important;
+    color: rgb(233,233,233) !important;
+    border-color: #1a3151;
+    font-weight: bold;
+}
 
 /*-------MOBILE RESPONSIVE----------*/
 @media only screen and (min-width: 360px) and (max-width: 760px) {
